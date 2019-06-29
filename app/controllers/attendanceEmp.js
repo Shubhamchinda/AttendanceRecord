@@ -176,7 +176,7 @@ const exp = {
       })
   }
 }
-// exp.attendance();
+exp.attendance();
 // exp.getTodaysAttendance('1')
 exp.getMorningShiftReport(Machineconfig[0]);
 module.exports = exp
