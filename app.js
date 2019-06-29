@@ -18,7 +18,10 @@ import YAML from 'yamljs'
 
 import configDB from './config/database'
 import passportConfig from './config/passport'
-import attendance from './app/controllers/newController'
+import attendanceEmp from './app/controllers/attendanceEmp'
+import addEmp from './app/controllers/addEmp'
+import listEmp from './app/controllers/listEmp'
+// import attendance from './app/controllers/newController'
 
 // routes ======================================================================
 import routes from './app/routes'

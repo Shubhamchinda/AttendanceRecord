@@ -1,4 +1,5 @@
 import moongoose, {Schema} from 'mongoose'
+import { strict } from 'assert';
 
 class employeData extends Schema {
   constructor(){
@@ -6,7 +7,10 @@ class employeData extends Schema {
       id: {type: Number, unique: true},
       name: {type:String,required:true, trim:true},
       phone_no: {type: Number},
-      timestamp:{type:Date,}
+      timestamp:{type:Date},
+      salary:{type:Number},
+      address:{type:String},
+      gender:{type:String}
     });
     return schemas
   }

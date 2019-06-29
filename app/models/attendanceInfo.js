@@ -3,11 +3,14 @@ import moongoose, {Schema} from 'mongoose'
 class attendanceData extends Schema {
   constructor(){
     const schemas = super({
+      // name:{type:String, unique:true},
       id: {type: Number, unique:true},
-      dateNTime: {type:Date},
+      inTime: {type:Date},
       // type: {type: String},
-      timestamp:{type:Date},
-      outtime: {type:Date}
+      timeStamp:{type:Date},
+      outTime: {type:Date},
+      machineid:{type:Number},
+
       });
     return schemas
   }
