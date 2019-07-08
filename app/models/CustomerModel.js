@@ -15,4 +15,4 @@ class CustomerSchema extends Schema {
     return user;
   }
 }
-export default mongoose.model("attendance", new CustomerSchema()); // eslint-disable-line
+export default mongoose.model("Customer", new CustomerSchema()); // eslint-disable-line

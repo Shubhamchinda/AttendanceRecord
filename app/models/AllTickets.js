@@ -6,7 +6,7 @@ class AllTicketsSchema extends Schema {
       {
         ticketId: { type: String, unique: true },
         status: { type: String },
-        CustId: { type: String, unique: true },
+        CustId: { type: String },
         EmpId: { type: String },
         title: String,
         category: String,
