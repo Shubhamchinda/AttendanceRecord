@@ -10,7 +10,7 @@
     "pm2": "pm2 start ./bin/www  --interpreter ./node_modules/.bin/babel-node --name \"my app name\" "
   },
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-node6": "^11.0.0",
